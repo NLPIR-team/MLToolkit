@@ -1,8 +1,8 @@
-+ Distance Class
-1.构造函数    
++ Distance 
++ 构造函数    
     1) distance(String vectorFile，boolean loadcache)  参数loadcache为false加载非二进制词向量文件，true时加载二进制对象文件，vectorFile为文件路径   
     2) distance(int cn,String vectorfile，boolean loadcache)  参数cn为返回结果个数，localdcache参数意义同上。
-2.function    
++ function    
     1) float calculateWords(String word1,String word2) 返回word1与word2的Cosin Distance   
     2) void calculateDistance(String word)  计算word 的cosin  distance集合,默认为40个,如果构造函数使用cn,则返回cn个,结果集由函数 Map<String,Float> getResultMap()返回,格式为map函数   
     3) Map<String,Float> calculateDistance(float distValue,String word) 计算word的cosin distance值大于disvalue的集合,结果以map返回   

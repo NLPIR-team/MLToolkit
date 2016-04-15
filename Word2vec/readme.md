@@ -16,6 +16,6 @@ startup-poskipgram.sh POS-Skip-gram模型生成脚本
 3) 模型生成   
 + 模型为：POS-CBOW和POS－Skip－Gram两个语言模型
 ----------------------------------------------   
-	* startup-poscbow.sh为pos-cbow模型生成脚本   
-	* startup-poskipgram为另一个语言模型生成脚本    
+1) startup-poscbow.sh为pos-cbow模型生成脚本   
+2) startup-poskipgram为另一个语言模型生成脚本    
 

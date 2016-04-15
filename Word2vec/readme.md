@@ -1,4 +1,4 @@
-+ 目录
++ 1.目录
 ----------
 bin/	可执行文件目录   
 corpus/	样本文件   
@@ -9,7 +9,7 @@ libNLPIR.so	NLPIR-ICTCLAS分词动态库
 startup-poscbow.sh	POS-CBOW模型生成脚本   
 startup-poskipgram.sh POS-Skip-gram模型生成脚本   
 
-+ 整个项目执行过程包括
++ 2.整个项目执行过程包括
 ----------------------
 1) 语料生成   
 2) 语料学习   
@@ -19,3 +19,8 @@ startup-poskipgram.sh POS-Skip-gram模型生成脚本
 1) startup-poscbow.sh为pos-cbow模型生成脚本   
 2) startup-poskipgram为另一个语言模型生成脚本    
 
++ 3.执行方法
+------------------
+1) 将TXT文本放入corpus目录    
+2) 替换相应版本linux的可执行文件word2vec    
+3) 执行相应模型脚本，完成2中整个项目执行过程

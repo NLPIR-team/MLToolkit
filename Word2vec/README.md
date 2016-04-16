@@ -21,6 +21,7 @@ startup-poskipgram.sh POS-Skip-gram模型生成脚本
 
 + 3.执行方法
 ------------------
+运行环境：Linux，JRE8
 1) 将TXT文本放入corpus目录    
 2) 替换bin目录下相应版本linux的可执行文件word2vec和当前目录下的libNLPIR.so两个文件    
 3) 执行相应模型脚本，完成2中整个项目执行过程    
